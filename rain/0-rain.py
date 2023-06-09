@@ -73,5 +73,5 @@ def rain(walls):
     # Calculate the amount of water retained above each wall
     for i in range(n):
         rain_water += min(left_max[i], right_max[i]) - walls[i]
-
+        
     return rain_water
