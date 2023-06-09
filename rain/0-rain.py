@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-"""Calculate how many square units of water will be retained after it rains."""
+"""#Amount of water retained after it rains in square units"""
 
 
 def rain(walls):
     """
-    Calculate the amount of water retained after it rains.
+    #Amount of water retained after it rains.
 
     Args:
         walls (list): non-negative integers .
@@ -37,12 +37,12 @@ def rain(walls):
         water_units += min(left_max[i], right_max[i]) - walls[i]
 
     return #!/usr/bin/python3
-"""Calculate how many square units of water will be retained after it rains."""
+"""#Amount of water retained after it rains in square units"""
 
 
 def rain(walls):
     """
-    Calculate the amount of water retained after it rains.
+    #Amount of water retained after it rains.
 
     Args:
         walls (list): non-negative integers .
